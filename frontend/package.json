@@ -1,0 +1,33 @@
+{
+  "name": "certicate_nft_frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@compiled/babel-plugin": "^0.16.0",
+    "@compiled/react": "^0.11.0",
+    "@hookform/resolvers": "^2.9.1",
+    "@loadable/babel-plugin": "^5.13.2",
+    "@loadable/component": "^5.15.2",
+    "@svgr/webpack": "^6.2.1",
+    "babel-loader": "^8.2.5",
+    "ethers": "^5.6.9",
+    "next": "12.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.32.2",
+    "react-loader-spinner": "^5.1.5",
+    "react-toastify": "^9.0.4",
+    "web3.storage": "^4.3.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "eslint": "8.18.0",
+    "eslint-config-next": "12.1.6"
+  }
+}
